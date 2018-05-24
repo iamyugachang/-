@@ -1,0 +1,25 @@
+html:
+
+<div class="frame" style="position:absolute;left:22em;">
+	<img  class="discrip-img" src="images/pic03.jpg "  ></img>
+</div>
+
+
+css:
+
+.frame{
+	height:400px;
+	width:400px;
+	border-radius:50%;
+	overflow:hidden;
+	position:absolute;
+	
+	
+	
+}
+.discrip-img{
+	height:400px;
+	width:auto;
+	
+	
+}
