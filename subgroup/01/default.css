@@ -243,7 +243,7 @@ ul.style3 a
 	background: #FFF;
 	text-align: center;
 	width:100%;
-	
+	//border: 10px solid #000;
 	
 
 }
@@ -309,9 +309,7 @@ ul.style3 a
 .margin-btm
 {
 	overflow: hidden;
-	//margin-bottom: -10em;
-	//padding-bottom: 5em;
-	//border-bottom: 10px solid rgba(0,0,0,.1);
+	
 }
 
 .button
@@ -340,6 +338,7 @@ ul.style3 a
 /*********************************************************************************/
 .blackboard{
 	color:#FFF;
+	
 }
 
 .section1,.section2,.section3{
@@ -347,6 +346,8 @@ ul.style3 a
 	font-size:60px;
 	overflow:hidden;
 	background:	#00AA00;
+	width:100%;
+	
 	
 }
 .section1{
@@ -396,7 +397,7 @@ ul.style3 a
 		width:1900px;
 		height:950px;
 		margin:0 auto;
-		//border: 10px solid #000;
+		
 	}
 	
 	/********************/
@@ -460,7 +461,7 @@ ul.style3 a
 	color:#FFF;
 	position:absolute;
 	font-weight:bold;
-	width:1000px;
+	width:500px;
 
 	}
 
