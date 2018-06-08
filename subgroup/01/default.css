@@ -17,6 +17,7 @@ body
 	font-size: 11pt;
 	font-weight: 300;
 	color: #6c6c6c;
+	
 	font-family:  "Microsoft JhengHei", sans-serif;
 }
 
@@ -36,8 +37,9 @@ p, ol, ul
 ol, ul
 {
 	padding: 0;
-	list-style: none;
+	//list-style: none;
 }
+
 
 p
 {
@@ -99,7 +101,8 @@ a:hover
 
 	#header-featured
 	{
-		padding: 8em 0em;
+		
+		padding: 7em 0em;
 		background-image: url(images/banner.jpg);
 		background-position: center;
 		background-size: cover;
@@ -118,6 +121,7 @@ a:hover
 	text-align: center;
 	color: rgba(255,255,255,.7);
 	font-size: 1.5em;
+	
 }
 
 #banner a
@@ -200,20 +204,27 @@ a:hover
 /*********************************************************************************/
 
 
-
-ul.style3
+.style3 h4{
+	//border-top: solid 1px rgba(255,255,255,.2);
+	padding: 0.3em 0 0.3em 0;
+	font-size: 35px;
+	font-weight:100;
+	width:1000px;
+	//background:#00AA00;
+}
+.style3
 {
-	list-style: none;
+	//list-style: none;
 	text-align:left;
 	position:relative;
 }
 
-ul.style3 li
+.style3 li
 {
 	//border-top: solid 1px rgba(255,255,255,.2);
 	padding: 0.3em 0 0.3em 0;
 	font-size: 35px;
-	width:1000px;
+	//width:1000px;
 	//background:#00AA00;
 	
 	
@@ -222,13 +233,6 @@ ul.style3 li
 
 
 
-ul.style3 a
-{
-	display: inline-block;
-	margin-left: 1em;
-	font-size: 1em !important;
-	color: #FFF;
-}
 
 
 
@@ -243,7 +247,7 @@ ul.style3 a
 	background: #FFF;
 	text-align: center;
 	width:100%;
-	//border: 10px solid #000;
+	//border: 1px solid #000;
 	
 
 }
@@ -258,7 +262,7 @@ ul.style3 a
 
 #featured-wrapper .icons
 {
-	//margin:0px auto;
+	
 	margin-top:30px;
 	width: 200px;
 	height: 200px;
@@ -268,14 +272,15 @@ ul.style3 a
 	
 }
 
+
+
+
 .box{
 	
 	margin:0px auto;
-	//margin-bottom: 2em;
 	width: 300px;
 	height: 300px;
 	border: 1px solid #FFF;
-	//border-radius: 50%;
 	-webkit-transition: all 0.5s ease-in-out;
             transition: all 0.5s ease-in-out;
 
@@ -294,32 +299,16 @@ ul.style3 a
 	color: #00AA00;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 .margin-btm
 {
 	overflow: hidden;
-	
 }
 
-.button
-{
-	margin-top: 2em;
-}
+
 
 .title h2
 {
-	font-size: 2em;
+	font-size: 32px;
 }
 
 
@@ -328,8 +317,7 @@ ul.style3 a
 {
 	//border: 1px solid #00AA00;
 	display:inline-block;
-	//width: 600px;
-	width:30%;
+	width:33%;
 	height:400px;
 }
 
@@ -380,8 +368,8 @@ ul.style3 a
 	/* Panel  			*/
 	/********************/
 	.panel1{
-		margin-left:20%;
-		margin-right:20%;
+		width:1200px;
+		margin:0 auto;
 	}	
 	.panel2{
 	
@@ -430,7 +418,7 @@ ul.style3 a
 		position:relative;
 		margin:0px auto;
 		margin-top:40px;
-		width:1000px;
+		width:950px;
 		//height:1200px;
 		//background:#00AA00;
 	}
