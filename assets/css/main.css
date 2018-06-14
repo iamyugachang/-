@@ -2,6 +2,7 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400|Passion+One:400");
 @import url(https://fonts.googleapis.com/earlyaccess/cwtexfangsong.css);
+@import url("https://use.fontawesome.com/releases/v5.0.6/js/all.js");
 
 /*
 	Full Motion by TEMPLATED
@@ -957,8 +958,12 @@
 
 		#banner p {
 			color: rgba(255, 255, 255, 0.85);
+			text-align:left;
 			font-size: 1.5em;
 			font-weight: 300;
+			display:block;
+			margin:0 auto;
+			width:1300px;
 		}
 
 			@media screen and (max-width: 980px) {
@@ -988,12 +993,12 @@
 				border: none;
 			}
 
-		#banner .more {
+		.more {
 			background-image: url("images/arrow.svg");
 			background-position: center 1.35em;
 			background-repeat: no-repeat;
 			background-size: auto;
-			border: 1px solid #fff;
+			border: 2px solid #fff;
 			border-radius: 100%;
 			color: rgba(255, 255, 255, 0.75);
 			display: block;
@@ -1006,12 +1011,13 @@
 			margin: 0 auto 2em auto;
 		}
 
-			#banner .more:hover {
+			.more:hover {
 				background-color: rgba(255, 255, 255, 0.05);
 				border: 1px solid #fff;
 				color: #FFF;
 			}
-
+		
+		
 		#banner video {
 			-moz-transform: translateX(50%) translateY(50%);
 			-webkit-transform: translateX(50%) translateY(50%);
@@ -1047,6 +1053,7 @@
 			width: 100%;
 			z-index: 1;
 		}
+		
 
 		@media screen and (max-width: 1280px) {
 
@@ -1085,6 +1092,7 @@
 
 	#main {
 		padding: 4em 0 2em 0;
+		text-align:center;
 	}
 
 		@media screen and (max-width: 736px) {
@@ -1401,7 +1409,7 @@ div.eg-CSS3-transitions {
 		top: 0;
 		left: 0;
 		width: 100%;
-		height: 65px;
+		height: 47px;
 		z-index: 10000;
 		background-color: #ffffff;
 		font-weight:500;
@@ -1456,10 +1464,11 @@ display:none;
   //filter: grayscale(100%);
 }
 
-.item:nth-of-type(4n+1) {
-  transform: scale(0.8, 0.8) rotate(5deg);
+
+.item {
+  transform: scale(0.8, 0.8) ;
   transition: all 0.35s;
-}
+}/*
 .item:nth-of-type(4n+1) .polaroid:before {
   transform: rotate(6deg);
   height: 20%;
@@ -1504,11 +1513,20 @@ display:none;
   left: 12px;
   box-shadow: 0 2.1rem 2rem rgba(0,0,0,0.3);
 }
+*/
 .item:hover {
   filter: none;
   transform: scale(1, 1) rotate(0deg) !important;
   transition: all 0.35s;
   z-index:15;
+}
+
+.next{
+	font-size:100px;
+	color:#808485;
+}
+.next:hover{
+	color:#45494A;
 }
 
 
