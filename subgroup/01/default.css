@@ -343,7 +343,7 @@ a:hover
 	height:800px;
 }
 .section2{
-	height:2100px;
+	height:2300px;
 }
 .section3{
 	height:2035px;
@@ -392,7 +392,7 @@ a:hover
 	/* S2  */
 	/********************/
 	.s2-box{
-		background: rgba(25, 25, 25, .5);
+		background: rgba(25, 25, 25, .7);
 		position:relative;
 	}
 	
@@ -418,7 +418,7 @@ a:hover
 		position:relative;
 		margin:0px auto;
 		margin-top:40px;
-		width:950px;
+		width:980px;
 		//height:1200px;
 		//background:#00AA00;
 	}
